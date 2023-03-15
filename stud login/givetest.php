@@ -1,7 +1,7 @@
 <?php
 session_start();
 date_default_timezone_set('Asia/Kolkata');
-$conn = mysqli_connect("sql208.hyperphp.com","hp_32984812","2f3fccd3b1d","hp_32984812_mcqtest");
+$conn = mysqli_connect("");
 if(!$conn)
 	die("FAILED TO CONNECT".mysqli_connect_error($conn));
 ?>
