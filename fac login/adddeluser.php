@@ -17,7 +17,7 @@ Enter Password : <input type=password name=pass><br>
 </html>
 <?php
 echo "LOGGED IN AS ".$_SESSION['name']."<br>";
-$conn = mysqli_connect("sql208.hyperphp.com","hp_32984812","2f3fccd3b1d","hp_32984812_mcqtest");
+$conn = mysqli_connect("");
 if(!$conn)
 	die("FAILED TO CONNECT!!!".mysqli_connect_error($conn));
 $rrr=$_SESSION['rno'];
