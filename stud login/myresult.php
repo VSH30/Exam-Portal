@@ -18,7 +18,7 @@ echo "<tr align=center><th colspan=3>Roll_No :</th><td colspan=9>$r</td></tr>";
 echo "<tr align=center><th colspan=3>Class :</th><td colspan=9>$c</td></tr>";
 echo "<tr align=center><th colspan=12><font style='border-bottom:double 3px;'>TEST RESULTS</font></th></tr>";
 
-$conn = mysqli_connect("sql208.hyperphp.com","hp_32984812","2f3fccd3b1d","hp_32984812_mcqtest");
+$conn = mysqli_connect();
 if(!$conn)
 	die("FAILED TO CONNECT".mysqli_connect_error($conn));
 
