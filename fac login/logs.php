@@ -13,7 +13,7 @@
 <table border=1 cellpadding=5 align=center>
 <tr align=center><th>Sr No.</th><th>Rno</th><th>Name</th><th>Class</th><th>Task</th><th>Remark</th><th>Time</th></tr>
 <?php
-$conn = mysqli_connect("sql208.hyperphp.com","hp_32984812","2f3fccd3b1d","hp_32984812_mcqtest");
+$conn = mysqli_connect("");
 if(!$conn)
     die("FAILED TO CONNECT".mysqli_connect_error($conn));
 
