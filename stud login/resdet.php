@@ -61,7 +61,7 @@ $time = $_SESSION['time'];
 
 $arrar=array();
 //---------------------------------------//
-print_r($resarr);
+//print_r($resarr);
 echo "<h1 align=center>$test MCQs</h1>";
 echo "<table align=center border=2 cellpadding=5px style='width:70%'>";
 echo "<tr align=center><th style='width:30%'>Result_ID</th><th>".$resarr['result_id']."</th></tr>";
