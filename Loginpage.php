@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1 align=center><span>LOGIN PAGE</span></h1>
+<h1 align=center>LOGIN PAGE</h1>
 <form method=POST action=# align=center>
 Enter Roll No. : <input type=number name=rno value="<?php echo $_POST['rno'];?>"><br>
 Enter Password : <input type=password name=pass "<?php echo $_POST['pass'];?>"><br><br>
